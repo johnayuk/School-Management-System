@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}#section2{
+    background-color: rgba(243, 243, 243, 0.76) !important;
+    width: 100% !important;
+    /* height: 100vh; */
+}button{
+    width:7vw;
+    border: none;
+    border-radius: 5% !important;
+    background-color: #df7410;
+}#student_profile_icon_and_button{
+    display: flex;
+    border-bottom: rgb(138, 132, 132) 1px ridge;
+    background-color: #ffffff;
+}#personal_details_icon_and_button{
+    display: flex;
+    border-bottom: rgb(138, 132, 132) 1px ridge;
+}#button_text{
+    color: rgb(243, 243, 245);
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 12px;
+}.card1{
+    background-color: rgba(243, 243, 243, 0.76) !important;
+    border-radius: 0% !important;
+    width: 18rem;
+    position: relative;
+    height: 25vh;
+    box-shadow: 3px 3px 8px gray;
+}.card2{
+    border-radius: 0% !important;  border: none !important;   box-shadow: 3px 3px 8px gray;
+    background-color: rgba(192, 192, 192, 0.438) !important;
+}img{
+    box-shadow: 2px 2px 8px gray;
+    height: 18vh !important;
+    width: 10vw !important;
+    border: 5px solid rgb(255, 255, 255) !important;
+    border-radius: 50%;
+    align-self: center;
+    position: absolute;
+    top: 10%;
+}li{
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    height: 5vh;
+    box-sizing: border-box;
+    padding: 1% 0% 0% 1%;
+    list-style: none;
+    font-size: 12px !important;
+    font-weight: bolder !important;
+}.li{
+    position: absolute;left: 10em;  font-weight: lighter !important;
+}.card_beneath{
+    display: none;
+}.navbar{
+border-bottom: 3px solid rgba(17, 0, 255, 0.534);
+}table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:100%
+}th,td{
+    padding: 5px;
+}.logo{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-style: italic;
+    font-family: cursive;
+}.btn{
+    width: 200px
+}.button_down{
+    margin: 35% 0% 0% 44%;
+
+}
+
+@media screen and (max-width:900px){
+    button{
+        width:6em;
+    }img{
+        box-shadow: 2px 2px 8px gray;
+        height: 18vh !important;
+        width: 35vw !important;
+   }.card1{
+   width: 18rem;  
+}.btn{
+    width: 20em !important;
+}.button_down{
+    border-radius: 0% !important;
+    width: 100%;
+    height: 6vh;
+    margin: 9% 0% 0% 0%;
+
+}
+}
